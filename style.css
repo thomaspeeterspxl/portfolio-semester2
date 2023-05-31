@@ -1,51 +1,45 @@
 
-/*body{*/
-/*    background-image: url("assets/background_home.png");*/
-/*}*/
-#logo_homepage{
-    position: absolute;
-    width: 595px;
-    height: 447px;
-    left: 236px;
-    top: calc(50% - 447px/2 + 0.5px);
+body{
+    background-image: url("assets/background_home.png");
+    background-position: center;
+    background-size: 100%;
 }
+#homepage{
+    margin: 5rem auto 7rem 150px;
+    display: flex;
+    justify-content: flex-start;
 
+}
+#homepage img {
+    width: 450px;
+    height: 300px;
+    margin: 90px 100px 0 0;
+}
+#homepage #tekst_homepage{
+    height: 320px;
+    margin: 10px 0 0 0;
+}
 
 #titel_1{
-    position: absolute;
-    width: 393px;
-    height: 131px;
-    left: 1242px;
-    top: 260px;
-
     font-family: 'Nunito', sans-serif;
     color:#EBFDF8;
-    font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 131px;
+    font-size: 70px;
 }
 #titel_2{
-    position: absolute;
     width: 800px;
-    height: 131px;
-    left: 1077px;
-    top: 374px;
-
     font-family: 'Nunito', sans-serif;
     color:#EBFDF8;
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 131px;
+    font-size: 60px;
+
 }
 
 main button{
-    position: absolute;
-    width: 517px;
+    width: 350px;
     height: 85px;
-    left: 1180px;
-    top: 631px;
+
     background: #5C9D8B;
     border: #5C9D8B solid 1px;
     box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.5);
@@ -56,7 +50,7 @@ main button a:link{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 50px;
     color: #EBFDF8;
     text-decoration: none;
 }
@@ -65,7 +59,7 @@ main button a:visited{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 50px;
     color: #EBFDF8;
     text-decoration: none;
 }
