@@ -1,0 +1,72 @@
+
+body{
+    background-image: url("assets/backgr.png");
+}
+#logo_homepage{
+    position: absolute;
+    width: 595px;
+    height: 447px;
+    left: 236px;
+    top: calc(50% - 447px/2 + 0.5px);
+}
+
+
+#titel_1{
+    position: absolute;
+    width: 393px;
+    height: 131px;
+    left: 1242px;
+    top: 260px;
+
+    font-family: 'Nunito', sans-serif;
+    color:#EBFDF8;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 131px;
+}
+#titel_2{
+    position: absolute;
+    width: 800px;
+    height: 131px;
+    left: 1077px;
+    top: 374px;
+
+    font-family: 'Nunito', sans-serif;
+    color:#EBFDF8;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 131px;
+}
+
+main button{
+    position: absolute;
+    width: 517px;
+    height: 85px;
+    left: 1180px;
+    top: 631px;
+    background: #5C9D8B;
+    border: #5C9D8B solid 1px;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+main button a:link{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #EBFDF8;
+    text-decoration: none;
+}
+
+main button a:visited{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #EBFDF8;
+    text-decoration: none;
+}
+

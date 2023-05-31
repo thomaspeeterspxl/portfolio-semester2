@@ -1,0 +1,60 @@
+*{
+    font-family: "Proxima Nova", sans-serif;
+}
+nav{
+    height: 106px;
+    background-color: #EBFDF8;
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    margin: 15px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    margin: 30px 15px;
+    width: 150px;
+    text-align: center;
+    color: #5C9D8B;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: 800;
+}
+
+nav ul li a.active{
+    text-decoration: underline;
+}
+
+#profiel {
+    margin: 5rem auto 7rem 150px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#over_mij #profiel img {
+    width: 437px;
+    height: 633px;
+    margin: 20px 60px 0 0;
+}
+
+main #profiel #persoonlijke-info {
+    height: 320px;
+    margin: 10px 0 0 0;
+}
+#persoonlijke-info h1{
+    padding: 0 25px 0 20px;
+    font-size: 64px;
+}
+#persoonlijke-info p {
+    padding: 0 25px 0 20px;
+    font-size: x-large;
+}
