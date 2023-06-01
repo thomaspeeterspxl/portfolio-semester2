@@ -37,12 +37,28 @@ nav ul li a:hover{
 nav ul li a.active{
     text-decoration: underline;
 }
-#main-gs img {
-    width: 250px;
-    height: 250px;
-    margin: 2rem 0 2rem 140px;
-}
+/*#main-gs img {*/
+/*    width: 250px;*/
+/*    height: 250px;*/
+/*    margin: 2rem 0 2rem 140px;*/
+/*}*/
 #main-gs{
     display: flex;
     flex-wrap: wrap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 400px;
+    height: 400px;
+    margin: 2rem 0 2rem 140px;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
 }
