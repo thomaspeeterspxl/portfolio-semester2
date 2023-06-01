@@ -1,0 +1,63 @@
+*{
+    font-family: "Proxima Nova", sans-serif;
+}
+
+nav{
+    height: 106px;
+    background-color: #EBFDF8;
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    margin: 15px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    margin: 30px 15px;
+    width: 150px;
+    text-align: center;
+    color: #5C9D8B;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: 800;
+}
+
+nav ul li a.active{
+    text-decoration: underline;
+}
+
+
+
+#knoppen-wpl {
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 150px auto;
+}
+@media screen and (max-width: 415px){
+    #knoppen-wpl{
+        flex-direction: column;
+        width: 400px;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+#knoppen-wpl article {
+    border: 1px solid #5EEECC;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 2rem 2rem 0;
+}
