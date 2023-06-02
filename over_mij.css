@@ -49,11 +49,11 @@ nav ul li a.active{
 
 main #profiel #persoonlijke-info {
     height: 320px;
-    margin: 10px 0 0 0;
+    /*margin: 10px 0 0 0;*/
 }
 #persoonlijke-info h1{
     padding: 0 25px 0 20px;
-    font-size: 50px;
+    font-size: 40px;
     color: #545479;
 }
 #persoonlijke-info p {
@@ -62,11 +62,12 @@ main #profiel #persoonlijke-info {
 }
 
 main button{
-    width: 437px;
+    width: 350px;
     height: 50px;
     background: #5C9D8B;
     border: #5C9D8B solid 1px;
-    border-radius: 25px;
+    border-radius: 20px;
+    margin-left: 20px;
 }
 
 main button a:link{
@@ -125,12 +126,12 @@ main button a:visited{
 }
 
 .flip-box-front {
-    background-color: #bbb;
+    background-color: #EBFDF8;
     color: black;
 }
 
 .flip-box-back {
-    background-color: dodgerblue;
+    background-color: #545479;
     color: white;
     transform: rotateX(180deg);
    margin: 0 auto;

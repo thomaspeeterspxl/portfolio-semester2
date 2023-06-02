@@ -37,8 +37,8 @@ body{
 }
 
 main button{
-    width: 350px;
-    height: 85px;
+    width: 270px;
+    height: 65px;
 
     background: #5C9D8B;
     border: #5C9D8B solid 1px;
@@ -50,7 +50,7 @@ main button a:link{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     color: #EBFDF8;
     text-decoration: none;
 }
@@ -59,7 +59,7 @@ main button a:visited{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     color: #EBFDF8;
     text-decoration: none;
 }
