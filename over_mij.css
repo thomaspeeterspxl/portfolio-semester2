@@ -136,3 +136,22 @@ main button a:visited{
     transform: rotateX(180deg);
    margin: 0 auto;
 }
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul li a {
+    display: inline-block;
+    padding: 0 20px 0 0;
+    font-size: 1.5rem;
+    color: #545479;
+    align-content: center;
+}
+
+footer ul li a:hover {
+    color: #5C9D8B;
+}

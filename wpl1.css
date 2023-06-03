@@ -35,6 +35,17 @@ nav ul li a.active{
     text-decoration: underline;
 }
 
+#txt-wpl{
+    margin: 50px 0 0 75px;
+}
+#txt-wpl h1{
+    font-size: 40px;
+    color: #545479;
+}
+#txt-wpl p{
+    font-size: large;
+}
+
 
 
 #knoppen-wpl {
@@ -45,8 +56,9 @@ nav ul li a.active{
     justify-content: center;
     align-items: center;
     width: 600px;
-    margin: 150px auto;
+    margin: 75px auto;
 }
+
 @media screen and (max-width: 415px){
     #knoppen-wpl{
         flex-direction: column;
@@ -55,9 +67,28 @@ nav ul li a.active{
         justify-content: flex-start;
     }
 }
-#knoppen-wpl article {
-    border: 1px solid #5EEECC;
+#knoppen-wpl button {
     border-radius: 5px;
     padding: 10px;
     margin: 0 2rem 2rem 0;
+    background: #5C9D8B;
+    border: #5C9D8B solid 1px;
+}
+
+#knoppen-wpl button a:link{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #EBFDF8;
+    text-decoration: none;
+}
+
+#knoppen-wpl button a:visited{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #EBFDF8;
+    text-decoration: none;
 }
