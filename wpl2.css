@@ -1,9 +1,7 @@
 *{
     font-family: "Proxima Nova", sans-serif;
-    box-sizing: border-box;
 }
 nav{
-    width: auto;
     height: 106px;
     background-color: #EBFDF8;
     display: flex;
@@ -27,68 +25,59 @@ nav ul li a{
     text-align: center;
     color: #5C9D8B;
     text-decoration: none;
-
 }
 nav ul li a:hover{
     font-weight: 800;
 }
-
 nav ul li a.active{
     text-decoration: underline;
 }
-/*#main-gs img {*/
-/*    width: 250px;*/
-/*    height: 250px;*/
-/*    margin: 2rem 0 2rem 140px;*/
-/*}*/
-#main-gs{
+
+#profiel {
+    margin: 5rem auto 7rem 150px;
     display: flex;
-    flex-wrap: wrap;
-}
-#gs h1{
-    margin: 2rem 0 0 2rem;
+    justify-content: flex-start;
 }
 
-
-.zoom {
-    padding: 25px;
-    transition: transform .2s;
-    /*width: 350px;*/
-    /*height: 350px;*/
-    margin: 2rem 0 2rem 140px;
+#wpl2 #profiel img {
+    /*width: 437px;*/
+    /*height: 633px;*/
+    margin: 20px 60px 0 0;
 }
 
-.zoom:hover {
-    transform: scale(1.25);
+main #profiel #persoonlijke-info {
+    height: 320px;
+    /*margin: 10px 0 0 0;*/
 }
-#knoppen-gs {
-    height: 10rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
-    margin: 75px auto;
+#persoonlijke-info h1{
+    padding: 0 0 0 20px;
+    font-size: 40px;
+    color: #545479;
 }
-#knoppen-gs button {
-    border-radius: 5px;
-    padding: 10px;
-    margin: 0 2rem 2rem 0;
+#persoonlijke-info p {
+    padding: 0 0 0 20px;
+    font-size: large;
+}
+
+main button{
+    width: 350px;
+    height: 50px;
     background: #5C9D8B;
     border: #5C9D8B solid 1px;
+    border-radius: 20px;
+    margin-left: 20px;
 }
 
-#knoppen-gs button a:link{
+main button a:link{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 25px;
     color: #EBFDF8;
     text-decoration: none;
 }
 
-#knoppen-gs button a:visited{
+main button a:visited{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 700;

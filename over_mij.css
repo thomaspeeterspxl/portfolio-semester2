@@ -93,16 +93,24 @@ main button a:visited{
 #hard_skills p{
     margin: 20px 60px 0 0;
     width: 675px;
+    font-size: medium;
 }
-#boxes{
+.boxes{
     display: flex;
+
+}
+.boxes .code{
+    width: 107px;
+    height: 107px;
+    /*padding: 17px;*/
+    margin: 17px;
 }
 .flip-box {
     background-color: transparent;
-    width: 142px;
-    height:142px;
-    border: 1px solid #f1f1f1;
+    width: 145px;
+    height:145px;
     perspective: 1000px;
+    margin: 25px 25px 25px 0;
 }
 
 .flip-box-inner {
@@ -110,7 +118,7 @@ main button a:visited{
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.8s;
+    transition: transform 0.5s;
     transform-style: preserve-3d;
 }
 
@@ -123,6 +131,8 @@ main button a:visited{
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    border-radius: 50px;
+    border: #545479 solid 2px;
 }
 
 .flip-box-front {
