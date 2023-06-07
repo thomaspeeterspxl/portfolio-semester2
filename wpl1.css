@@ -30,6 +30,7 @@ nav ul li a{
 nav ul li a:hover{
     font-weight: 800;
 }
+
 nav ul li a.active{
     text-decoration: underline;
 }
@@ -45,8 +46,6 @@ nav ul li a.active{
     font-size: large;
 }
 
-
-
 #knoppen-wpl {
     height: 10rem;
     display: flex;
@@ -56,15 +55,6 @@ nav ul li a.active{
     align-items: center;
     width: 600px;
     margin: 75px auto;
-}
-
-@media screen and (max-width: 415px){
-    #knoppen-wpl{
-        flex-direction: column;
-        width: 400px;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-    }
 }
 #knoppen-wpl button {
     border-radius: 5px;
@@ -90,4 +80,29 @@ nav ul li a.active{
     font-size: 25px;
     color: #EBFDF8;
     text-decoration: none;
+}
+
+@media screen and (max-width: 415px){
+    #knoppen-wpl{
+        flex-direction: column;
+        width: 400px;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    nav img{
+        display: none;
+    }
+    nav{
+        height: 100%;
+        width: 415px;
+    }
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+        width: 415px;
+        padding: 0;
+    }
+    nav ul li a{
+        /*width: 100%;*/
+    }
 }

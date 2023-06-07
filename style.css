@@ -1,42 +1,46 @@
 
-body{
+body {
     background-image: url("assets/background_home.png");
     background-position: center;
     background-size: 100%;
 }
-#homepage{
+
+#homepage {
     margin: 5rem auto 7rem 150px;
     display: flex;
     justify-content: flex-start;
 
 }
+
 #homepage img {
     width: 450px;
     height: 300px;
     margin: 90px 120px 0 0;
 }
-#homepage #tekst_homepage{
+
+#homepage #tekst_homepage {
     height: 320px;
     margin: 10px 0 0 0;
 }
 
-#titel_1{
+#titel_1 {
     font-family: 'Nunito', sans-serif;
-    color:#EBFDF8;
+    color: #EBFDF8;
     font-weight: 700;
     font-size: 70px;
 }
-#titel_2{
+
+#titel_2 {
     width: 800px;
     font-family: 'Nunito', sans-serif;
-    color:#EBFDF8;
+    color: #EBFDF8;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
 
 }
 
-main button{
+main button {
     width: 270px;
     height: 65px;
 
@@ -46,7 +50,7 @@ main button{
     border-radius: 25px;
 }
 
-main button a:link{
+main button a:link {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -55,7 +59,7 @@ main button a:link{
     text-decoration: none;
 }
 
-main button a:visited{
+main button a:visited {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -63,4 +67,55 @@ main button a:visited{
     color: #EBFDF8;
     text-decoration: none;
 }
+
+/* Mediaquery voor iPhone XR */
+@media screen and (max-width: 415px) {
+main{
+    width: 100%;
+}
+    body {
+        background-image: url("assets/back gr portf gsm.jpg");
+        background-size: 150%;
+    }
+
+    #homepage {
+        margin: 2rem 0 4rem 40px;
+        flex-direction: column;
+        display: flex;
+    }
+
+    #homepage img {
+        width: 300px;
+        height: 200px;
+        margin: 60px 80px 0 10px;
+    }
+
+    #homepage #tekst_homepage {
+        height: 240px;
+    }
+
+    #titel_1 {
+        font-size: 50px;
+        margin: 25px 50px;
+    }
+
+    #titel_2 {
+        width: 200px;
+        font-size: 50px;
+        margin: 25px 50px;
+    }
+
+    main button {
+        width: 220px;
+        height: 55px;
+        border-radius: 20px;
+        margin: 20px 40px;
+    }
+
+    main button a:link,
+    main button a:visited {
+        font-size: 30px;
+    }
+}
+
 
