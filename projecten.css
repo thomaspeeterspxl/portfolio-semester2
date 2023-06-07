@@ -96,3 +96,22 @@ nav ul li a.active{
     color: #EBFDF8;
     text-decoration: none;
 }
+
+@media screen and (max-width: 415px){
+    nav img{
+        display: none;
+    }
+    nav{
+        height: 100%;
+        width: 415px;
+    }
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+        width: 415px;
+        padding: 0;
+    }
+    nav ul li a{
+        /*width: 100%;*/
+    }
+}
