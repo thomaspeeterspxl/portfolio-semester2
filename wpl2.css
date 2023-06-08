@@ -198,7 +198,7 @@ width: 1280px;
     }
     #wpl2 #profiel img{
         width: 400px;
-        height: 600px;
+        height: 400px;
         margin: 20px 0 0 0 ;
     }
     #wpl2-logo{
@@ -226,5 +226,12 @@ width: 1280px;
         width: 150px;
         margin: 25px 50px 25px 0;
     }
-
+    #linken_wpl2{
+        width: 390px;
+        margin: 0 auto 5rem 0;
+        padding-left:10px ;
+    }
+    #linken_wpl2 button{
+        margin-bottom: 25px;
+    }
 }
