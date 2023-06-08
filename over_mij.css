@@ -165,3 +165,51 @@ footer ul li a {
 footer ul li a:hover {
     color: #5C9D8B;
 }
+@media screen and (max-width: 414px){
+    nav img{
+        display: none;
+    }
+    nav{
+        height: 100%;
+        width: 415px;
+    }
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+        width: 415px;
+        padding: 0;
+    }
+    nav ul li a{
+        /*width: 100%;*/
+    }
+    footer{
+        display: none;
+    }
+    main #profiel{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    #over_mij #profiel img{
+width: 414px;
+        height: 621px;
+        margin: 20px 0 0 0 ;
+    }
+    #hard_skills{
+        display: flex;
+        flex-direction: column;
+        width: 415px;
+        margin: 620px 0 2rem 0;
+    }
+    .boxes{
+        display: flex;
+        /*flex-direction: column;*/
+        flex-wrap: wrap;
+    }
+    #hard_skills p{
+        width: 400px;
+    }
+    #hard_skills img,#hard_skills button{
+        scale: 75%;
+    }
+}
