@@ -1,6 +1,6 @@
 *{
     font-family: "Proxima Nova", sans-serif;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 nav{
     width: auto;
@@ -53,7 +53,6 @@ nav ul li a.active{
 .zoom {
     padding: 25px;
     transition: transform .2s;
-    /*width: 350px;*/
     /*height: 350px;*/
     margin: 2rem 0 2rem 140px;
 }
@@ -98,6 +97,23 @@ nav ul li a.active{
 }
 
 @media screen and (max-width: 415px){
+    #main-gs{
+        width: 415px;
+    }
+    #main-gs article{
+        width: 415px;
+    }
+    #main-gs .zoom{
+        scale: 75%;
+        margin: 1rem 0;
+        width: 350px;
+    }
+    #knoppen-gs{
+        flex-direction: column;
+        width: 415px;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
     nav img{
         display: none;
     }

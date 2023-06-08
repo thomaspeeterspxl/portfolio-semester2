@@ -83,9 +83,10 @@ nav ul li a.active{
 }
 
 @media screen and (max-width: 415px){
+
     #knoppen-wpl{
         flex-direction: column;
-        width: 400px;
+        width: 415px;
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
