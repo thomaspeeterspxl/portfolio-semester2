@@ -191,23 +191,22 @@ footer ul li a:hover {
         margin: 0 auto;
     }
     #over_mij #profiel img{
-width: 414px;
-        height: 621px;
+width: 400px;
+        height: 606px;
         margin: 20px 0 0 0 ;
     }
     #hard_skills{
         display: flex;
         flex-direction: column;
-        width: 415px;
-        margin: 620px 0 2rem 0;
+        width: 380px;
+        margin: 620px 0 2rem 20px;
     }
     .boxes{
         display: flex;
-        /*flex-direction: column;*/
         flex-wrap: wrap;
     }
     #hard_skills p{
-        width: 400px;
+        width: 370px;
     }
     #hard_skills img,#hard_skills button{
         scale: 75%;
