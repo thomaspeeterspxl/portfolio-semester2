@@ -48,15 +48,12 @@ nav ul li a.active{
     margin: 0 auto 7rem 150px;
 }
 #wpl2 #profiel #logo {
-    /*width: 437px;*/
-    /*height: 633px;*/
     margin: 200px 60px 0 120px;
 }
 
 main #profiel #persoonlijke-info {
     height: 320px;
     width: 750px;
-    /*margin: 10px 0 0 0;*/
 }
 #persoonlijke-info h1{
     padding: 0 0 0 20px;
@@ -187,9 +184,6 @@ width: 1280px;
         justify-content: center;
         width: 415px;
         padding: 0;
-    }
-    nav ul li a{
-        /*width: 100%;*/
     }
     main #profiel{
         display: flex;

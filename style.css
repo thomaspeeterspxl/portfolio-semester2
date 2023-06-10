@@ -68,7 +68,6 @@ main button a:visited {
     text-decoration: none;
 }
 
-/* Mediaquery voor iPhone XR */
 @media screen and (max-width: 415px) {
 main{
     width: 100%;

@@ -1,6 +1,5 @@
 *{
     font-family: "Proxima Nova", sans-serif;
-    /*box-sizing: border-box;*/
 }
 nav{
     width: auto;
@@ -36,11 +35,7 @@ nav ul li a:hover{
 nav ul li a.active{
     text-decoration: underline;
 }
-/*#main-gs img {*/
-/*    width: 250px;*/
-/*    height: 250px;*/
-/*    margin: 2rem 0 2rem 140px;*/
-/*}*/
+
 #main-gs{
     display: flex;
     flex-wrap: wrap;
@@ -53,7 +48,6 @@ nav ul li a.active{
 .zoom {
     padding: 25px;
     transition: transform .2s;
-    /*height: 350px;*/
     margin: 2rem 0 2rem 140px;
 }
 
@@ -72,7 +66,7 @@ nav ul li a.active{
 }
 #knoppen-gs button {
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     margin: 0 2rem 2rem 0;
     background: #5C9D8B;
     border: #5C9D8B solid 1px;
@@ -126,8 +120,5 @@ nav ul li a.active{
         justify-content: center;
         width: 415px;
         padding: 0;
-    }
-    nav ul li a{
-        /*width: 100%;*/
     }
 }
