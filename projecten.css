@@ -54,6 +54,11 @@ nav ul li a.active{
 .zoom:hover {
     transform: scale(1.25);
 }
+
+.reclame{
+    height: 300px;
+    width: 300px;
+}
 #knoppen-gs {
     height: 10rem;
     display: flex;
