@@ -47,13 +47,13 @@ nav ul li a.active{
 
 .zoom {
     padding: 25px;
-    transition: transform .2s;
-    margin: 2rem 0 2rem 140px;
+    /*transition: transform .2s;*/
+    margin: 2rem 0 2rem 100px;
 }
 
-.zoom:hover {
-    transform: scale(1.25);
-}
+/*.zoom:hover {*/
+/*    transform: scale(1.10);*/
+/*}*/
 
 .reclame{
     height: 300px;
